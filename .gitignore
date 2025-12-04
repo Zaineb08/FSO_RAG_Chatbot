@@ -1,0 +1,51 @@
+# Fichiers d'environnement
+.env
+backend/.env
+*.env
+
+# Fichiers de cache Python
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers de données et embeddings (sensibles ou volumineux)
+backend/data/embeddings.json
+backend/data/extracted_data.json
+backend/data/extracted_data.csv
+
+# Documents PDF sources (si vous ne souhaitez pas les partager)
+backend/pdfs/
+
+# Fichiers de résultats d'évaluation
+backend/archive/evaluation_results.csv
+backend/evaluation_plots/
+
+# Dépendances Node.js
+node_modules/
+frontend/node_modules/
+*/node_modules/
+
+# Fichiers de build et de cache de Vite
+frontend/dist/
+frontend/.vite/
+dist/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
