@@ -104,7 +104,6 @@ FSO_RAG_Chatbot/
 ├── backend/                          # Serveur API (Flask)
 │   ├── api.py                        # Point d'entrée - Serveur Flask
 │   ├── main.py                       # Pipeline RAG principal & logique du chatbot
-│   ├── app.py                        # Interface Streamlit (archivée)
 │   ├── requirements.txt              # Dépendances Python
 │   ├── .env                          # Configuration (clés API, secrets)
 │   └── data/
