@@ -100,17 +100,47 @@ Le frontend a été entièrement redessiné avec une interface moderne et intuit
 ## 🛠️ Structure du Projet
 
 ```
-.
-├── api.py              # Backend : Serveur API Flask
-├── app.py              # Ancienne interface Streamlit (archivée)
-├── main.py             # Backend : Cœur du pipeline RAG et logique du chatbot
-├── requirements.txt    # Dépendances Python
-├── frontend/           # Dossier contenant l'application React
+FSO_RAG_Chatbot/
+├── backend/                          # Serveur API (Flask)
+│   ├── api.py                        # Point d'entrée - Serveur Flask
+│   ├── main.py                       # Pipeline RAG principal & logique du chatbot
+│   ├── app.py                        # Interface Streamlit (archivée)
+│   ├── requirements.txt              # Dépendances Python
+│   ├── .env                          # Configuration (clés API, secrets)
+│   └── data/
+│       ├── embeddings.json           # Base de données vectorielle
+│       ├── extracted_data.json       # Données extraites des PDFs
+│       └── extracted_data.csv        # Données en format CSV
+│
+├── frontend/                         # Application React (Vite)
 │   ├── src/
-│   │   ├── App.jsx     # Composant principal de l'interface de chat
-│   │   └── App.css     # Styles de l'interface
-│   └── package.json    # Dépendances Node.js
-├── data/
-│   └── embeddings.json # Base de données vectorielle (générée)
-└── pdfs/               # Dossier contenant les documents sources
+│   │   ├── App.jsx                  # Composant principal du chatbot
+│   │   ├── App.css                  # Styles de l'interface
+│   │   ├── main.jsx                 # Point d'entrée React
+│   │   ├── index.css                # Styles globaux
+│   │   ├── components/
+│   │   │   ├── ChatMessage.jsx      # Composant pour afficher les messages
+│   │   │   ├── TypingIndicator.jsx  # Indicateur de saisie animé
+│   │   │   └── QuickActionButton.jsx# Boutons d'actions rapides
+│   │   └── assets/
+│   ├── index.html                   # HTML principal
+│   ├── package.json                 # Dépendances Node.js
+│   ├── vite.config.js               # Configuration Vite
+│   └── public/                      # Fichiers statiques
+│
+├── .gitignore                       # Fichiers à ignorer par Git
+├── README.md                        # Ce fichier
+├── README.pdf                       # Version PDF du README
+├── rapport_projet_nlp.md           # Rapport détaillé du projet NLP
+└── venv/                            # Environnement virtuel Python
+
 ```
+
+### 📂 Fichiers Clés :
+
+- **`backend/api.py`** : Point d'entrée du serveur Flask (port 5000)
+- **`backend/main.py`** : Implémentation du pipeline RAG avec embeddings et recherche vectorielle
+- **`frontend/src/App.jsx`** : Composant principal avec gestion d'état du chat
+- **`frontend/src/components/`** : Composants React réutilisables
+- **`backend/data/`** : Base de données vectorielle et données extraites
+- **`backend/.env`** : Variables d'environnement (OPENAI_API_KEY, etc.)
