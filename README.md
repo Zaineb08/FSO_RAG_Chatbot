@@ -130,7 +130,6 @@ FSO_RAG_Chatbot/
 │
 ├── .gitignore                       # Fichiers à ignorer par Git
 ├── README.md                        # Ce fichier
-├── README.pdf                       # Version PDF du README
 ├── rapport_projet_nlp.md           # Rapport détaillé du projet NLP
 └── venv/                            # Environnement virtuel Python
 
