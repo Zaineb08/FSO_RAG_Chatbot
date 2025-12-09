@@ -22,9 +22,6 @@ backend/data/embeddings.json
 backend/data/extracted_data.json
 backend/data/extracted_data.csv
 
-# Documents PDF sources (si vous ne souhaitez pas les partager)
-backend/pdfs/
-
 # Fichiers de résultats d'évaluation
 backend/archive/evaluation_results.csv
 backend/evaluation_plots/
