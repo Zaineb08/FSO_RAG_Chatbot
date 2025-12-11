@@ -1,6 +1,6 @@
 # Chatbot RAG pour l’Assistance Académique – FSO
 
-<video src="https://github.com/Zaineb08/FSO_RAG_Chatbot/blob/main/demo.mp4" controls width="600">
+<video src="https://raw.githubusercontent.com/Zaineb08/FSO_RAG_Chatbot/main/demo.mp4" controls width="600">
   Your browser does not support the video tag.
 </video>
 
