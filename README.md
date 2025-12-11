@@ -1,5 +1,9 @@
 # Chatbot RAG pour l’Assistance Académique – FSO
 
+<video src="demo.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
+
 Ce projet implémente un chatbot intelligent basé sur l'architecture RAG (Retrieval-Augmented Generation) pour répondre aux questions des étudiants souhaitant intégrer la Faculté des Sciences d’Oujda (FSO) en se basant sur les documents officiels.
 
 ## Architecture
