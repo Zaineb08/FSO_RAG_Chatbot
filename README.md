@@ -1,9 +1,5 @@
 # Chatbot RAG pour l’Assistance Académique – FSO
 
-<video src="https://raw.githubusercontent.com/Zaineb08/FSO_RAG_Chatbot/main/demo.mp4" controls width="600">
-  Your browser does not support the video tag.
-</video>
-
 Ce projet implémente un chatbot intelligent basé sur l'architecture RAG (Retrieval-Augmented Generation) pour répondre aux questions des étudiants souhaitant intégrer la Faculté des Sciences d’Oujda (FSO) en se basant sur les documents officiels.
 
 ## Architecture
@@ -17,7 +13,7 @@ Le projet est composé de deux parties principales :
 
 ## 🚀 Lancement du Projet
 
-Pour lancer l'application, vous devez démarrer le backend et le frontend séparément.
+Pour lancer l'application, vous devez démarrer le backend et le frontend séparément. Clonez le repo, et ajoutez un fichier .env contenant votre clé API Open AI.
 
 ### 1. Démarrage du Backend (Serveur API)
 
@@ -32,7 +28,7 @@ Le backend est un serveur Flask qui écoute sur le port `5000`.
     python -m venv venv
 
     # Activer sur Windows (PowerShell)
-    .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate
 
     # Activer sur macOS/Linux
     source venv/bin/activate
