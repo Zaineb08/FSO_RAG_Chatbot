@@ -2,6 +2,7 @@
 
 Ce projet implémente un chatbot intelligent basé sur l'architecture RAG (Retrieval-Augmented Generation) pour répondre aux questions des étudiants souhaitant intégrer la Faculté des Sciences d’Oujda (FSO) en se basant sur les documents officiels.
 
+## Lien démo: https://youtu.be/Ldw6ejmHYfs
 ## Architecture
 
 Le projet est composé de deux parties principales :
